@@ -1,0 +1,40 @@
+body{
+    background-color:rgb(252, 246, 237);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+}
+div{
+    background-color: rgb(170, 200, 222);
+    color: rgb(15, 15, 15);
+    margin: 5px;
+}
+h2{
+    text-align: center;
+}
+span{
+    display: block;
+}
+img{
+    height: 170px;
+    width: 100%;
+    border-radius: 10px;   
+}
+.card{
+    height: fit-content;
+    width: fit-content;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px;
+    transition: 1s;
+    padding: 7px;
+}
+.card:hover{  
+    cursor: pointer;
+    transition: 1s;
+    scale: 0.9;
+    img{
+        scale: 0.9;
+    }
+
+}
